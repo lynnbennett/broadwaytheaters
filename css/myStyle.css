@@ -1,30 +1,71 @@
 
 .jumbotron {
-  background-image: url(../images/tickets.png);
+  background-image: url(../images/jumbo.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
 }
 
+.nav-item {
+  color: #ce0000;
+  font-size: 1rem;
+  background-color: rgb(247,215,8,.15);
+}
+
+.navbar-toggler-icon {
+  background-color: #f7d708;
+  
+}
+
+
+.navtainer {
+    background-color: #f7d708;
+        border:  #ce0000  solid  2px;
+}
+
+
+ #hello {
+  display: inline;
+  color: #fffefc;
+  font-size: 3rem;
+  font-weight: 800;
+  vertical-align: top;
+  background-color: #ce0000;
+  font-family: 'Dancing Script', cursive;
+  padding: .5rem;
+}
+ 
+
 #broadwaylights {
   margin-left: 50px;
   margin-right: 50px;
   font-size: 16px;
-  border-left: 2px solid #3293cf;
+  border-left: 2px solid #f7d708;
   padding-left: 20px;
+}
+
+.bestshows {
+  border-radius: 1rem;
+  background-color: rgb(247,215,8,.15);
 }
 
 .besthits {
   text-align: center;
+   color: #ce0000;
 }
 
 .card-img {
   margin-bottom: 10px;
 }
 
+.card-title {
+  background-color: #ce0000;
+  color: #fffefc;
+}
+
 hr {
   border: 0;
-	border-top: 2px solid #d9534f;
+	border-top: 2px solid #ce0000;
   width: 50%;
 }
 
@@ -46,17 +87,17 @@ hr {
 
 .form-group{
     margin-top:30px;
-    margin-bottom:em1;
+    margin-bottom:em2;
 }
-.containerpb2{
-    
+.container2{
+    display:center:
 }
 
 
 /* the following is for carousel page movement */
 
 .container3 {
-    border: 1px red solid;
+    border: 1px #fa4506 solid;
     padding: 2%;
     margin: 2%
 }
@@ -68,6 +109,16 @@ hr {
   position: relative;
   width: 100%;
 }
+
+
+.container center{
+  display:center;
+}
+
+  
+
+
+  
 
 /* Make the image to responsive */
 .underimage {
@@ -81,7 +132,7 @@ hr {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: yellow;
+  background-color: #faf706;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -96,7 +147,7 @@ hr {
 
 /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
 .text {
-  color: forestgreen;
+  color: #10ab04;
   font-size: 4rem;
   position: absolute;
   top: 50%;
@@ -142,18 +193,18 @@ hr {
 
 /*form css */
 
-.li a {
-  font-family: 'Satisfy', cursive;
-  background-color:#ffffff;
-  
-}
 
-.containerpb2{
-  font-family: 'Satisfy', cursive;
-  float:right;
-}
 
-.containerpb3{
-  font-family: 'Satisfy', cursive;
-  float:right:right;
+
+@media only screen and (max-width: 949px) {
+#shakem {
+    text-align: center;
+}
+    }
+
+@media only screen and (min-width: 950px) {
+    #shakem {
+        display: none
+    }    
+    
 }

@@ -8,19 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="css/myStyle.css">
+    
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 
-    <title>Broadway mainpage</title>
+
+    <title>Hello, Broadway!</title>
   </head>
   <body>
       
       <div class="jumbotron">
   <div class="container text-center">
-<button class="btn-lg text-danger display-1 bg-light pt-3 pb-3"><h2 id="hello">Hello, Broadway!</h2></button>
+   <h1 id="hello">Hello, Broadway!</h1>
+  </div>   <!--end of jumbotron container -->
+  </div> <!-- end of jumbotron   -->
     
-</div>   <!--end of jumbotron container -->
-</div> <!-- end of jumbotron   -->
-    
-   <nav class="navbar navbar-expand-md navbar-toggleable-sm bg-secondary navbar-light"><!-- nav.navbar.navbar-toggleable-sm -->
+   <nav class="navbar navbar-expand-md navbar-toggleable-sm"><!-- nav.navbar.navbar-toggleable-sm -->
      <div class="container"><!-- div.container -->
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"><!-- button.navbar-toggler -->
              <span class="navbar-toggler-icon"></span><!-- span.navbar-toggler-icon-->
@@ -31,14 +33,14 @@
                  <a href="index.html" class="nav-item nav-link">Home</a><!-- a.nav-item.nav-link -->
                  <a href="carousel.html" class="nav-item nav-link">Carousel</a>
                  <a href="form.html" class="nav-item nav-link">Forms</a>
-                 <a href="about.html" class="nav-item nav-link">About</a>
+                 
              </div><!-- End of navbar-nav -->
          </div><!-- End of navbar-collapse -->
      </div><!-- End of nav container -->
 </nav>
 
         
-<div class="container mt-5">
+<div class="container mt-3">
   <div class="row">
         <div class="col-md-8">
           <p>Theater started in downtown Manhattan and gradually moved north. By 1870, Union Square was the center of Broadway. By 1900, many theaters had reached Madison Square. The early 1900s saw the first few theaters around Times Square. A large number of theaters were built in Times Square during the 1920s and 1930s.</p>
@@ -46,14 +48,15 @@
           <p>The building of Broadway theaters coincided with the development of the electric light bulb. From <em>Wikipedia:</em></p>
           <blockquote class="blockquote"><p id="broadwaylights">The invention of the electric light bulb paved the way for the famous electric signage, which characterizes Times Square. The first electric billboard for the play, <em>The Red Mill,</em> was illuminated in 1903. Other theaters followed this trend, and soon all of Broadway was illuminated with electric signage and referred to as “The Great White Way.” In 1927, the neon light was invented, bringing in a flush of new vibrant colored lights for billboards in Times Square.</p></blockquote>
     
-          <p>Today, most Broadway theaters are owned by just three companies: the Shubert Organization with 17 theaters, the Nederlander Organization with 9 theaters, and Jujamcyn Theaters with 5. Other theater owners include Second Stage, Roundabout Theatre Company, Ambassador Theatre Group, Circle in the Square, Disney Theatrical Productions, Lincoln Center Theater, and Manhattan Theatre Club. See our carousel page for the precise locations of some theaters.</p>
+          <p>Today, most Broadway theaters are owned by just three companies: the Shubert Organization with 17 theaters, the Nederlander Organization with 9 theaters, and Jujamcyn Theaters with 5. Other theater owners include Second Stage, Roundabout Theatre Company, Ambassador Theatre Group, Circle in the Square, Disney Theatrical Productions, Lincoln Center Theater, and Manhattan Theatre Club.</p>
+          
           </div><!--end of col-->
     
-        <div class="col-md-4 bg-light mt-5 mb-5 pt-3 pb-3  bg-light">
+        <div class="col-md-4 bestshows mb-5 pt-3 pb-3">
         <h4 class="besthits">Broadway's Best Hits</h4>
-          <p>Here is a list of the Broadway's longest running shows:</p>
+          <p>Here is a list of Broadway's longest running shows:</p>
           <ol>
-          <li><em>The Phantom of the Opera</em></li>
+          <li>Can you guess? Click on the No. 1 button below.</li>
           <li><em>Chicago</em></li>
           <li><em>The Lion King</em></li>
           <li><em>Cats</em></li>
@@ -65,7 +68,7 @@
           <li><em>Beauty and the Beast</em></li>
           </ol>
           
-          <p>There were 7486 performances of <em>The Phantom of the Opera.</em> </p>
+          <button type="button" id="quiz" pl-2>No. 1</button>
           </div><!--end of col-->
   </div><!--end of row-->
 
@@ -73,30 +76,30 @@
     
      <div class="col-md-4">
        <div class="card-body">
-        <h4 class="card-title bg-danger text-center text-light">The Tony Awards</h4>
-        <img class="card-img" src="images/perry2.png" alt="Antoinette Perry">
+        <h4 class="card-title text-center">The Tony Awards</h4>
+        <img class="card-img" src="images/perry.png" alt="Antoinette Perry">
         <p>The full name of the Tony Awards is The Antoinette Perry Awards for Excellence in Theatre. 
         <p>Mary Antoinette Perry was an actress and director. She directed the Pulitzer-Prize winning show <em>Harvey,</em> which was later turned into a film starring James Stewart. She was one of the founders of the American Theatre Wing, an organization that provided entertainment to servicemen during  World War II. It also operated Stage Doors Canteens.</p>
-        <p>To be considered for a Tony Award a theater must have more than 500 seats and be located in the Theater District. About 40 theaters in New York meet those requirements.</p>
+        <p>To be considered for a Tony Award, a theater must have more than 500 seats and be located in the Theater District. About 40 theaters in New York meet those requirements.</p>
       </div><!--end of card-body-->
       </div><!--end of col-->
   
     <div class="col-md-4"> 
     <div class="card-body">
-      <h4 class="card-title bg-danger text-center text-light">Fun Facts</h4>
+      <h4 class="card-title text-center">Fun Facts</h4>
       <p class="card-text">Broadway's contributes $12.6 billion to the local economy and supports 87,100 local jobs.</p>
-      <p>Theater-goers beat sport-attendees: In 2016-2017, more people saw Broadway shows than attended the top ten New York and New Jersey sports teams combined.</p>
+      <p>Theater fans beat sports fans: In 2016-2017, more people saw Broadway shows than attended the games of the top ten New York and New Jersey sports teams combined.</p>
       <p>Broadway theater is a main tourist attraction: 60% of the audience is drawn from tourists, 38% from locals. Attendance in 2016-2017 was 13.27 million people.</p>
       <p>Most Broadway shows are musicals.</p>
       <p>Successful Broadway shows tour nationally and internationally. <em>The Lion King,</em> for example, is playing in Spain, Holland, and Germany.</p>
-      <p>What is the difference between "theat<mark>er</mark>" and "theat<mark>re</mark>"? The <a href="http://grammarist.com/spelling/theater-theatre/ target="_blank">Grammarist</a> will explain.</p> 
+      <p>What is the difference between "theat<mark>er</mark>" and "theat<mark>re</mark>"? The <a href="http://grammarist.com/spelling/theater-theatre/" target="_blank">Grammarist</a> will explain.</p> 
       </div><!--end of card-body-->
       </div><!--end of col--> 
 
   
       <div class="col-md-4">
       <div class="card-body">
-      <h4 class="card-title bg-danger text-center text-light">Upcoming Broadway Shows</h4>
+      <h4 class="card-title text-center">Upcoming Broadway Shows</h4>
       <p class="card-text"><em>Pretty Woman<br>
         King Kong<br>
         The Cher Show<br>
@@ -133,7 +136,7 @@
  
 <div class="container">
   <div class="footer text-center">
-    <p><em>Hello, Broadway!</em>was created by Group 3<br>
+    <p><em>Hello, Broadway!</em> was created by Group 3<br>
      to fulfill a requirement for the<br>
 New York Public Library's TechConnect program.</p>
   </div>
@@ -146,5 +149,6 @@ New York Public Library's TechConnect program.</p>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="js/myScript.js"></script>
   </body>
 </html>
