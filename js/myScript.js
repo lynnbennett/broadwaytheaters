@@ -17,5 +17,7 @@ function myFunction() {
     document.getElementById("inlineFormInputName2").innerHTML = x;
 }
 
+/*
 .btn-default {
       border-radius: 13;
+      */
